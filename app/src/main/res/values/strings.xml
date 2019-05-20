@@ -43,4 +43,5 @@
     </string>
     <string name="bio_text_image">A small image above the bio text</string>
     <string name="what_is_your_nick_name">What is your nick name?</string>
+    <string name="done">Done</string>
 </resources>

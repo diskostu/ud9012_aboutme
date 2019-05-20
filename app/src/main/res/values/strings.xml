@@ -1,4 +1,45 @@
 <resources>
     <string name="app_name">About me</string>
     <string name="name">Denny</string>
+    <string name="yellow_star">Yellow star string resource</string>
+
+    <string name="bio">Hi, my name is Denny.
+    \n\nI like my bike.
+    \n\nI like to ride it in the morning.
+    \nAnd sometimes, in the evening, too.
+    \n\nI like my bike.
+    \n\nI like to ride it in the morning.
+    \nAnd sometimes, in the evening, too.
+    \n\nI like my bike.
+    \n\nI like to ride it in the morning.
+    \nAnd sometimes, in the evening, too.
+    \n\nI like my bike.
+    \n\nI like to ride it in the morning.
+    \nAnd sometimes, in the evening, too.
+    \n\nI like my bike.
+    \n\nI like to ride it in the morning.
+    \nAnd sometimes, in the evening, too.
+    \n\nI like my bike.
+    \n\nI like to ride it in the morning.
+    \nAnd sometimes, in the evening, too.
+    \n\nI like my bike.
+    \n\nI like to ride it in the morning.
+    \nAnd sometimes, in the evening, too.
+    \n\nI like my bike.
+    \n\nI like to ride it in the morning.
+    \nAnd sometimes, in the evening, too.
+    \n\nI like my bike.
+    \n\nI like to ride it in the morning.
+    \nAnd sometimes, in the evening, too.
+    \n\nI like my bike.
+    \n\nI like to ride it in the morning.
+    \nAnd sometimes, in the evening, too.
+    \n\nI like my bike.
+    \n\nI like to ride it in the morning.
+    \nAnd sometimes, in the evening, too.
+    \n\nI like my bike.
+    \n\nI like to ride it in the morning.
+    \nAnd sometimes, in the evening, too.
+    </string>
+    <string name="bio_text_image">A small image above the bio text</string>
 </resources>

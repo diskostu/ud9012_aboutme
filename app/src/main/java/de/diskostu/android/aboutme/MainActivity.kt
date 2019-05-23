@@ -10,12 +10,16 @@ import de.diskostu.android.aboutme.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
+    // the generated binding object
     private lateinit var binding: ActivityMainBinding
+
+    private val dennyName: MyName = MyName("Denny", "diskostu")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 //        setContentView(R.layout.activity_main)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+        binding.myName = dennyName
 
         // variant 1: use of data binding
         binding.doneButton.setOnClickListener { view ->
@@ -33,7 +37,7 @@ class MainActivity : AppCompatActivity() {
      */
     private fun addNickname(view: View) {
         binding.apply {
-            nicknameText.text = binding.nicknameEdit.text
+            dennyName.nickname = nicknameEdit.text.toString()
 
             invalidateAll()
 
